@@ -116,4 +116,6 @@ module.exports = (robot) ->
   robot.hear /(geisya|geisha|芸者)/i, (msg) ->
     msg.send "http://38.media.tumblr.com/7e7c21f32084146d73fadf99d1282c2d/tumblr_inline_mk7coxnHO11qz4rgp.jpg"
 
+  robot.hear /(佐藤さん好きです)/i, (msg) ->
+    msg.send "ズッ友だﾖ……！！"
 
