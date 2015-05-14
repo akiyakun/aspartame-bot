@@ -104,6 +104,16 @@ module.exports = (robot) ->
   # robot.respond /sleep it off/i, (res) ->
   #   robot.brain.set 'totalSodas', 0
   #   res.reply 'zzzzz'
-  robot.hear /(sushi|すし｜スシ｜寿司)/i, (msg) ->
-    msg.send "スシが食べたい。"
+  robot.hear /(sushi|すし|スシ|寿司)/i, (msg) ->
+    msg.send "スシが食べたい"
+
+  robot.hear /(tempura|天ぷら)/i, (msg) ->
+    msg.send "FUJIYAMA!!"
+
+  robot.hear /(sukiyaki|すき焼き)/i, (msg) ->
+    msg.send "しゃぶしゃぶ"
+
+  robot.hear /(geisya|芸者)/i, (msg) ->
+    msg.send "http://38.media.tumblr.com/7e7c21f32084146d73fadf99d1282c2d/tumblr_inline_mk7coxnHO11qz4rgp.jpg"
+
 
