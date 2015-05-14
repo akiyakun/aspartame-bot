@@ -107,13 +107,13 @@ module.exports = (robot) ->
   robot.hear /(sushi|すし|スシ|寿司)/i, (msg) ->
     msg.send "スシが食べたい"
 
-  robot.hear /(tempura|天ぷら)/i, (msg) ->
+  robot.hear /(tempura|天ぷら|天婦羅|天麩羅)/i, (msg) ->
     msg.send "FUJIYAMA!!"
 
   robot.hear /(sukiyaki|すき焼き)/i, (msg) ->
     msg.send "しゃぶしゃぶ"
 
-  robot.hear /(geisya|芸者)/i, (msg) ->
+  robot.hear /(geisya|geisha|芸者)/i, (msg) ->
     msg.send "http://38.media.tumblr.com/7e7c21f32084146d73fadf99d1282c2d/tumblr_inline_mk7coxnHO11qz4rgp.jpg"
 
 
